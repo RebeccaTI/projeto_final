@@ -1,0 +1,330 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: #F5F5F5;
+}
+ul {
+    padding: 0px!important;
+    position: absolute;
+    left: 28%;
+}
+.menu-principal {
+    width: 100%;
+    background-color: #191970;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+main, .content{
+    width: 980px;
+    position: relative;
+    float: left;
+    margin: 0px auto;
+}
+.logo {
+    height: 62px;
+    width: 68px;
+    position: fixed;
+    left: 9px;
+    cursor: pointer;
+}
+.header-2 {
+    background-color: #F5F5F5;
+    width: 980px;
+    margin:0 auto;
+    padding: 17px;
+}
+.menu-urls {
+    height: 87px;
+    border-bottom: 3px solid #efefef;
+
+}
+.menu ul li:hover {
+    border-bottom: 2px solid #191970;
+}
+.menu ul li a:hover {
+    color: #191970 ;
+}
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.col-100.bloco-logos {
+    position: relative;
+    top: 1073px;
+    height: 189px;
+    background-color: #191970;
+}
+.col-4 {
+    position: relative;
+    float: left;
+    width: 22%;
+    top: 11px;
+    left: 18%;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 90px;
+    height: 102px;
+    background: transparent;
+    background-image: url(../img/left.jpg);
+    position: absolute;
+    z-index: 9;
+    top: 35%;
+    left: 15%;
+    cursor: pointer;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 99px;
+    height: 109px;
+    background: transparent;
+    background-image: url(../img/right.jpg);
+    position: absolute;
+    z-index: 9;
+    top: 34%;
+    right: 17%;
+    cursor: pointer;
+}
+img {
+    position: relative;
+    left: 24%;
+    width: 52%;
+}
+
+.col-4 img.asp {
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
+.col-4 img.rip {
+    position: relative;
+    top: 35px;
+    cursor: pointer;
+}
+.col-4 img.oi {
+    position: relative;
+    bottom: 9px;
+    cursor: pointer;
+}
+.col-4 img:hover {
+    margin-top: 10px!important;
+    position: relative;
+}
+.tres {
+    width: 52%;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 4px solid #ffffff;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    left: 16%;
+    bottom: 29px;
+    
+}
+li.slick-active button {
+    background: #191970;
+}
+.slick-dots li{
+    padding-left:10px ;
+    display: inline-block;
+}
+.texto-destaque {
+    left: 22%;
+    width: 72%;
+    font-family: Helvetica;
+}
+.texto-destaque h1 {
+    position: relative;
+    color: #9a9a9a;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 76%;
+    text-align: center;
+}
+.texto-destaque strong {
+    color: #646464;
+}
+.texto-destaque p {
+    position: relative;
+    color: #9a9a9a;
+    font-size: 20px;
+    bottom: 13px;
+    width:80%;   
+}
+.texto-destaque h3 {
+    position: relative;
+    left: 18%;
+    bottom: 14px;
+}
+.col-3 p {
+    color: #9a9a9a;
+    font-size: 20px;
+    position: relative;
+    left: 18px;
+}
+.col-3 h3 {
+    color: #9a9a9a;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    left: 19px;
+}
+.col-3 {
+    padding-left: 27px;
+    padding-right: 15px;
+    width: 28%;
+    float: left;
+    position: relative;
+    left:3%;
+    font-family: Helvetica;
+}
+.bloco-texto1 {
+    margin-top: 3px;
+    border-bottom: 3px solid #efefef;
+}
+h3 {
+    font-weight:normal!important;
+}
+.cadastro2 {
+    position: relative;
+    font-size: 40px;
+    top: 92px;
+    left: 36%;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    color: #646464   
+}
+.container {
+    width: 50%;
+    margin: 0px 25%;
+  }
+  
+  .form-contact {
+    width: 100%;
+    font-family: Helvetica;
+    position: relative;
+    top: 173px;
+    border-bottom: 3px solid #efefef;
+  }
+  
+  .form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    font-family: Helvetica;
+  }
+  
+  .form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: Helvetica;
+  }
+  
+  .form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #191970;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    transition: 1s;
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }
+ .texto-2 {
+    position: relative;
+    text-align: center;
+    top: 772px;
+    color: #646464;
+    font-family: Helvetica;
+ }
+.texto-2 p {
+    font-size: 20px;
+    color: #9a9a9a;
+    border-bottom: 3px solid #efefef;
+    text-align: left;
+    position: relative;
+    left: 38px;
+}
+.form-login {
+    width: 100%;
+    font-family: Helvetica;
+    position: relative;
+    top: 318px;
+    border-bottom: 3px solid #efefef;
+}
+.login h1 {
+    position: relative;
+    top: 304px;
+    left: 42%;
+    font-family: helvetica;
+    text-transform: uppercase;
+    color: #646464 
+}
